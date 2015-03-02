@@ -1,6 +1,6 @@
 package coreConceptsInJava;
 
-public class UnderstandingGettersAndReturnValues {
+public class UnderstandingGettersSettersAndReturnValues {
 
 	public static void main(String[] args) {
 		// Initializing person1
