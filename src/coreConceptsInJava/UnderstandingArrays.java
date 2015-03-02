@@ -1,6 +1,6 @@
 package coreConceptsInJava;
 
-public class ArrayClass {
+public class UnderstandingArrays {
 
 	public static void main(String[] args) {
 		

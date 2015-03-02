@@ -1,10 +1,11 @@
 package coreConceptsInJava;
 
-public class ArraysOfStringsClass {
+public class UnderstandingArraysOfStrings {
 
 	public static void main(String[] args) {
 
 		String text = null; //Way to Initialize a string
+		System.out.println(text);
 		
 		//Way 1. Creating and initializing a String array
 		String[] greetings = new String[3];

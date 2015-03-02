@@ -1,6 +1,6 @@
 package coreConceptsInJava;
 
-public class ArraysMultiDimentionalClass {
+public class UnderstandingMultiDimentionalArrays {
 
 	public static void main(String[] args) {
 
