@@ -14,10 +14,11 @@ public class UnderstandingClassesAndObjects {
 		person2.name = "Jason Bourn";
 		person2.age = 45;
 		
-		System.out.println(person1.name + " " + person1.age + " Says " + person1.sayHello());
+		System.out.println(person1.name + " " + person1.age + " Says " + person1.sayHello()); 
+		//calling method sayHello from person class
 		System.out.println(person2.name + " " + person2.age + " Says " + person2.sayHello());
 
-		person1.introduction();
+		person1.introduction(); //calling method introduction from person class
 		person2.introduction();
 	}
 }
