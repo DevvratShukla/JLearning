@@ -17,6 +17,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# folder structures to be ignored
+/bin/**
+
 # =========================
 # Operating System Files
 # =========================
