@@ -5,7 +5,7 @@ public class ArrayClass {
 	public static void main(String[] args) {
 		
 		//Way 1. Creating and initializing an array
-		int[] values;
+		int[] values; // Here values is a reference variable
 		values = new int[3];
 		
 		System.out.println("***Before Initializing***");
