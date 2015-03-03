@@ -16,7 +16,7 @@ public class UnderstandingStaticVariablesAndMethods {
 		// Initializing name and description
 		thing1.name = "Ana";
 		thing2.name = "Eve";
-		Thing.DESCRIPTION = "I am a static variable ";
+		Thing.description = "I am a static variable ";
 
 		thing1.showName();
 		thing2.showName();
@@ -29,10 +29,10 @@ public class UnderstandingStaticVariablesAndMethods {
 
 class Thing {
 	public String name;
-	public static String DESCRIPTION;
+	public static String description;
 	
 	public void showName(){
-		System.out.println(Thing.DESCRIPTION + name);
+		System.out.println(Thing.description + name);
 		//non static methods can call static variables
 	}
 	
@@ -43,7 +43,7 @@ class Thing {
 	}
 	
 	public static void showDescription(){
-		System.out.println(Thing.DESCRIPTION);
+		System.out.println(Thing.description);
 	}
 
 }
