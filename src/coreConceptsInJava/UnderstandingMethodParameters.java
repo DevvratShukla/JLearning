@@ -14,6 +14,7 @@ public class UnderstandingMethodParameters {
 		sam.speak(greeting); //here reference to the string "Hello there is passed to the method";
 		sam.eat(food);
 		sam.update(greeting);
+		
 		System.out.println(food);
 		System.out.println(greeting);
 	}
