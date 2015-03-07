@@ -1,4 +1,4 @@
-package coreConceptsInJava;
+package io.github.devvratplus.java.concepts.core;
 
 public class UnderstandingStaticVariablesAndMethods {
 

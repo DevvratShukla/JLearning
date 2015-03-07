@@ -1,4 +1,4 @@
-package collectionsConceptInJava;
+package io.github.devvratplus.java.concepts.collections;
 
 public class ArrayList {
 
