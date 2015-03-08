@@ -4,11 +4,13 @@ import java.util.ArrayList;
 
 public class UnderstandingGenerics {
 
+		@SuppressWarnings("unchecked")
 		public static void main(String[] args) {
 
 			// before java 5
 			//way ArrayList was created
 			
+			@SuppressWarnings("rawtypes")
 			ArrayList list = new ArrayList();
 			list.add("Apple");
 			list.add("Banana");
