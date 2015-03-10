@@ -9,17 +9,28 @@ public class UnderstandingInheretence {
 		
 		Robo droid2 = new Droid();
 		
+		Chirpie ch1 = new Chirpie();
+		
+		System.out.println("Inside Robo class.");
 		robot1.sayHello();
 		robot1.switchOn();
 		robot1.switchedOff();
 		
+		System.out.println("Inside Droid class.");
 		droid1.sayHello();
 		droid1.switchOn();
 		droid1.switchedOff();
 		
+		System.out.println("Inside Droid class.");
 		droid2.sayHello();
 		droid2.switchOn();
 		droid2.switchedOff();
+		
+		System.out.println("Inside Chirpie class.");
+		ch1.sayHello();
+		ch1.switchOn();
+		ch1.switchedOff();
+		
 	}
 
 }
@@ -48,4 +59,8 @@ class Droid extends Robo{
 		System.out.println("Droid is switched off!");
 	}
 	
+}
+
+class Chirpie extends Droid{
+
 }
