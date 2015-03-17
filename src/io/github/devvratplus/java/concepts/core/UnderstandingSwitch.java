@@ -6,7 +6,7 @@ public class UnderstandingSwitch {
 
 	public static void main(String[] args) {
 
-		Scanner input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in); // this helps you get user input from CMD
 
 		System.out.print("Enter the command(start/stop/restart/deploy): ");
 		String text = input.nextLine();
