@@ -31,9 +31,8 @@ public class UnderstandingSerialization {
 
 	/**
 	 * 
-	 * @param obj
-	 * @param FileName
-	 *            : Name of the file under files folder
+	 * @param obj : Person type object
+	 * @param FileName : Name of the file under files folder
 	 */
 	public static void writeObject(Person obj, String FileName) {
 		System.out.print("Writing object" + obj + "...");
@@ -63,7 +62,7 @@ public class UnderstandingSerialization {
 			
 			Person obj = (Person) os.readObject();
 			System.out.println("Done");
-			os.close();
+
 			return obj;
 
 		} catch (FileNotFoundException e) {
