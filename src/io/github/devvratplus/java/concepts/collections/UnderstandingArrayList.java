@@ -30,6 +30,7 @@ public class UnderstandingArrayList {
 		arrayListOfString.add("Elephant");
 		
 		//printing values from list
+		System.out.println(arrayListOfString);
 		
 		String lv1 = (String) list.get(1);
 		// since we did not specify which type of list it is
