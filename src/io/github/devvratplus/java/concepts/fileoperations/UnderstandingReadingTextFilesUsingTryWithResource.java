@@ -9,7 +9,7 @@ import java.io.IOException;
 public class UnderstandingReadingTextFilesUsingTryWithResource {
 
 	public static void main(String[] args){
-		File file = new File(System.getProperty("user.dir") + "//fileds//readme.txt");
+		File file = new File(System.getProperty("user.dir") + "//files//readme.txt");
 		
 		// Introduced in Java 7
 		// Try With Resources 
