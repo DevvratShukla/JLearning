@@ -25,3 +25,8 @@ public class UnderstandingAccessModifiers {
 	}
 
 }
+
+/*class AnotherClass extends FinalClass{
+  You cannot extend a final class
+}
+*/

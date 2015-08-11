@@ -22,9 +22,9 @@ public class UnderstandingSerialization {
 		Person bolt = new Person(29, "Bolt", "New Zealand");
 
 		writeObject(mike, file1);
-		writeObject(bolt, file1);
-
 		System.out.println(readObject(file1));
+
+		writeObject(bolt, file1);
 		System.out.println(readObject(file1));
 
 	}

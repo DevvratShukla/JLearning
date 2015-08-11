@@ -12,7 +12,7 @@ public class UnderstandingInnerClasses {
 		
 		Dinosaur.Eyes dEyes  = new Dinosaur.Eyes(); // calling a static class
 		dEyes.watch();
-		
+
 	}
 }
 
@@ -39,10 +39,10 @@ class Dinosaur{
 		public void watch(){
 			Dinosaur d = new Dinosaur(9);
 				
-			System.out.println("/n-----");
+			System.out.println("\n-----");
 			System.out.println("I see what you see in " + location);
 			System.out.println("I am " + d.age + " years old");
-			System.out.println("/n-----");
+			System.out.println("\n-----");
 		}
 	}
 	
@@ -51,7 +51,7 @@ class Dinosaur{
 	}
 
 	public void awake(){
-		System.out.println("Good morning..");
+		System.out.println("I am awake! I can think and my heart still beats.");
 		
 		Brain brain = new Brain();
 		brain.thinks();
@@ -62,17 +62,19 @@ class Dinosaur{
 		final String name = "Adam";
 		// classes declared inside a method can only access local variables that are Final
 		
-		class Temp{
-			public void storedInTemp(){
+		class AnonymousClass{
+			public void anonymousClassMethos(){
 				System.out.println("-----");
+				System.out.println("I am a anonymous class method!");
 				System.out.println("My Age is " +  age);
 				System.out.println("My name is " + name);
 				System.out.println("-----");
 			}
 		}
 
-		Temp temp = new Temp();	
-		temp.storedInTemp();
+		AnonymousClass temp = new AnonymousClass();	
+		temp.anonymousClassMethos();
 		
 	}
+	
 }
