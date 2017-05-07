@@ -1,2 +1,1 @@
-# JLearning
-Learning Core Java with examples
+# Learning Core Java with examples
