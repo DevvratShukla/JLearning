@@ -51,7 +51,7 @@ class MobileApps implements Comparable<MobileApps> {
 	private String name;
 	
 	// enum that defines the natural order 
-	SetNaturalOrder naturalOrder = SetNaturalOrder.SORT_BY_STRING_LENGTH;
+	SetNaturalOrder naturalOrder = SetNaturalOrder.SORT_BY_SERIALNO;
 	
 	@Override
 	public int hashCode() {

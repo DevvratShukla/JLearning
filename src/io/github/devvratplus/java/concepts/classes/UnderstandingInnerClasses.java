@@ -1,6 +1,11 @@
 package io.github.devvratplus.java.concepts.classes;
 
 public class UnderstandingInnerClasses {
+	
+	// Java allows us to define a class within another class. Such a class is
+	// called a nested class. The class which enclosed nested class is known as
+	// Outer class. In java, we can’t make Top level class static. Only nested
+	// classes can be static.
 
 	public static void main(String[] args) {
 
